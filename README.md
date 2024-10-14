@@ -1,3 +1,11 @@
+*contributing*
+
+- Feel free to submit issues, fork this repository, and submit pull requests. Contributions are welcome to improve the tool or add new features.
+- ui needs improvements
+- test to see if it works on other computers besides my own
+- *worked for me so if it dosen't for you leave an issue. i'll def try to fix it. also thinking about optimizing this project. it's slow and doesnt support downloading multiple VODS at once*
+
+
 # Video Downloader with Selenium, yt-dlp, and Tkinter
 
 ## Overview
@@ -36,11 +44,6 @@ Make sure you have the following installed before running the application:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/video-downloader.git
-   cd video-downloader
-   ```
-
 2. Install the required dependencies using `pip`:
 
    ```bash
@@ -54,10 +57,8 @@ Make sure you have the following installed before running the application:
 1. **Run the application**:
 
    ```bash
-   python video_downloader.py
+   python3 main.py
    ```
-
-2. The GUI will prompt you to enter a **Kick.com username**. Click **Show Video Links** to fetch all available video links from that user's profile.
 
 3. Select the videos you want to download from the list, or click **Select All** to select all available videos.
 
@@ -76,10 +77,6 @@ You can modify the logging level in the script based on your preference. The log
 
 - **Selenium WebDriver** will open an actual browser session (Chrome) to extract video links from Kick.com.
 - **yt-dlp** is a powerful video downloader that supports various platforms, including YouTube and Kick.com. It will download the videos from the selected links.
-
-## Contribution
-
-Feel free to submit issues, fork this repository, and submit pull requests. Contributions are welcome to improve the tool or add new features.
 
 ## License
 
